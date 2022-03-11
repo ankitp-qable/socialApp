@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="socialVM" type="com.socialapp.app.modules.social.data.viewmodel.SocialVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameGroup15"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylegray_900">
+        <ImageView android:id="@+id/imageRectangle32"
+            android:layout_gravity="top|end"
+            android:layout_height="@dimen/_65pxh"
+            android:layout_marginBottom="@dimen/_142pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_142pxv"
+            android:layout_width="@dimen/_134pxh" android:scaleType="fitXY"/>
+        <ImageView android:id="@+id/imageFacebook"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_585pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY" android:src="@drawable/img_facebook"/>
+    </FrameLayout>
+</layout>
